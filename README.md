@@ -7,7 +7,7 @@ Using Platform IO plugin in VS-Code for this.
 
 HTTP Server written in Golang (I just find it easier).
 
-## Sever Setup instructions - 
+## Server Setup instructions - 
 1. In folder $root/go-server > go run main.go 
 2. ifconfig -> Look for the local-ip - In my case it is en0 interface.
 3. Replace the ip in include/http_client.h - servername - so that ESP32 can hit the right IP . [This will be changed later]
